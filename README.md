@@ -45,6 +45,7 @@ Uname -r → 5.10.0-19-cloud-amd64 (It will give the version of the kernel that 
 <img width="470" alt="image" src="https://user-images.githubusercontent.com/111544172/200439841-1cb5b676-8d8f-461c-b87f-fd727e9ca696.png">
 
 •	To see the output run the command ‘sudo dmesg’: 
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/200439898-7508d99f-d2fe-48d3-8f1f-691720d069f7.png">
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/200439910-dbf107db-b4b9-4ae1-aee6-30b56241abf6.png">
