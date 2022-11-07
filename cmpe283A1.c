@@ -1,5 +1,5 @@
 /*  
- CMPE283A1.c - Kernel module submitted by Priyanka Turumalla - 016672669 ( As a part of Assignment1)
+ cmpe283A1.c - Kernel module submitted by Priyanka Turumalla - 016672669 ( As a part of Assignment1)
  */
 #include <linux/module.h>	/* Needed by all modules */
 #include <linux/kernel.h>	/* Needed for KERN_INFO */
@@ -104,7 +104,7 @@ struct capability_info secondaryprocbased[28] =
     {24, "Intel PT uses guest physical addresses" },
     {25, "Use TSC scaling" },
     {26, "Enable user wait and pause" },
-    {27, "Enable PCONFIG"}
+    {27, "Enable PCONFIG"},
     {28, "Enable ENCLV Exiting" }
 };
 
@@ -142,7 +142,7 @@ struct capability_info vmexitcontrols[17] =
     {26, "Clear IA32_LBR_CTL" },
     {28, "Load CET state" },
     {29, "Load PKRS" },
-    {30, "Save IA32_PERF_GLOBAL_CTL"}
+    {30, "Save IA32_PERF_GLOBAL_CTL"},
     {31, "Activate secondary controls" }
 };
 
@@ -207,7 +207,7 @@ report_capability(struct capability_info *cap, uint8_t len, uint32_t lo,
 void
 detect_vmx_features(void)
 {
-	uint32_t lo, hi,check_secondary_exists, check_teritary_exists ;
+	uint32_t lo, hi ;
 
 	/* Pinbased controls */
 	rdmsr(IA32_VMX_PINBASED_CTLS, lo, hi);
