@@ -39,6 +39,7 @@ Uname -r → 5.10.0-19-cloud-amd64 (It will give the version of the kernel that 
 
 
 ●	Now run the Make command it would appear as follows and command - sudo insmod  ./cmpe283A1.ko will help to insert the kernel module/object
+and to remove the module run 'sudo rmmod cmpe283-1'
 
 <img width="470" alt="image" src="https://user-images.githubusercontent.com/111544172/200439833-993bda4a-cfc4-44cf-8707-bc959105496e.png">
 
@@ -51,4 +52,4 @@ Uname -r → 5.10.0-19-cloud-amd64 (It will give the version of the kernel that 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/111544172/200439910-dbf107db-b4b9-4ae1-aee6-30b56241abf6.png">
 
 
-Run the command - sudo apt install linux-headers-$(uname-r)
+
