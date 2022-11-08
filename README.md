@@ -7,10 +7,15 @@ Please find the steps to recreate the development steps:
 
 ●	Create a VM through UI or fill in the information like Name, InstanceId, Zone, machine type, and CPU Platform and click on the Equivalent command line button (present at the bottom of the page), cloud shell will open with the information filled similar to the screenshot below.
 Below are the details that were chosen for this assignment:
+
 Name: cmpe283-instance
+
 Zone: us-central1-b
+
 Machine Type: n2-standard-8
+
 CPU Platform: Intel Cascade Lake
+
 
 
 ●	Add extra capabilities as per the requirement, here add enable nested virtualization before creating the instance.
@@ -23,8 +28,6 @@ CPU Platform: Intel Cascade Lake
 ●	To connect to VM through SSH, click on the SSH in the instance just created:
 <img width="470" alt="image" src="https://user-images.githubusercontent.com/111544172/200439608-d3c28db9-9c16-4411-8bdf-039d2f4c5c8c.png">
 
-●	To connect to VM through SSH, click on the SSH in the instance just created:
-<img width="470" alt="image" src="https://user-images.githubusercontent.com/111544172/200439657-bdbf6f22-f0df-4c0e-8509-c970c75d20a9.png">
 
 ●	Create a new directory - cmpe283A1 and clone the kernel module and Make File from this repo.
 
