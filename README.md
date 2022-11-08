@@ -1,6 +1,8 @@
 # CMPE283-Assignment1
 
-Please find the steps to recreate the development steps:
+1) Assignment is done by me
+
+2) Please find the steps to recreate the development steps:
 
 
 ●	Create a free tier account in the Google Cloud Platform to make use of the services.
